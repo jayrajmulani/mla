@@ -1,12 +1,13 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 14/01/2019 09:57
+  	Creation date: 03/07/2020 09:59
   	*/
 
 @font-face {
   font-family: "Flaticon";
   src: url("./Flaticon.eot");
   src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
        url("./Flaticon.woff") format("woff"),
        url("./Flaticon.ttf") format("truetype"),
        url("./Flaticon.svg#Flaticon") format("svg");
@@ -29,15 +30,19 @@ font-style: normal;
 margin-left: 20px;
 }
 
-.flaticon-family:before { content: "\f100"; }
-.flaticon-auction:before { content: "\f101"; }
-.flaticon-handcuffs:before { content: "\f102"; }
-.flaticon-shield:before { content: "\f103"; }
-.flaticon-lawyer:before { content: "\f104"; }
-.flaticon-medal:before { content: "\f105"; }
-.flaticon-handshake:before { content: "\f106"; }
-.flaticon-house:before { content: "\f107"; }
-.flaticon-employee:before { content: "\f108"; }
-.flaticon-fire:before { content: "\f109"; }
-.flaticon-money:before { content: "\f10a"; }
-.flaticon-medicine:before { content: "\f10b"; }
+.flaticon-3d-design:before { content: "\f100"; }
+.flaticon-web-programming:before { content: "\f101"; }
+.flaticon-app-development:before { content: "\f102"; }
+.flaticon-advertising:before { content: "\f103"; }
+.flaticon-branding:before { content: "\f104"; }
+.flaticon-vector:before { content: "\f105"; }
+.flaticon-computer:before { content: "\f106"; }
+.flaticon-zoom:before { content: "\f107"; }
+.flaticon-suitcase:before { content: "\f108"; }
+.flaticon-loyalty:before { content: "\f109"; }
+.flaticon-coffee:before { content: "\f10a"; }
+.flaticon-calendar:before { content: "\f10b"; }
+.flaticon-listening:before { content: "\f10c"; }
+.flaticon-suitcases:before { content: "\f10d"; }
+.flaticon-video-player:before { content: "\f10e"; }
+.flaticon-football:before { content: "\f10f"; }
