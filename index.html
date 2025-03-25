@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Coming Soon</title>
+	<title>Mulani Law Associates</title>
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,9 +16,25 @@
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/timeline.css">
+	<link rel="stylesheet" href="css/disclaimer.css">
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	<div id="disclaimerPopup" class="popup">
+		<div class="popup-content">	
+			<h2>Disclaimer</h2>
+			<p>The Bar Council of India does not permit advertisement of solicitation by advocates in any form or
+				manner. By accessing this website, www.mulanilawassociates.com, you acknowledge and confirm that you are
+				seeking information relating to Mulani Law Associates of your own accord and that there has been no form
+				of solicitationm advertisement or inducement by Mulani Law Associates or its members. The content of
+				this website is for informational purposes only and should not be interpreted as soliciting or
+				advertisement. No material/information provided on this website should be construed as legal advice.
+				Mulani Law Associates shall not be liable for consequences of any action taken by relying on the
+				material/information provided on this website. The contents of this website are intellectual property of
+				Mulani Law Associates.</p>
+			<button onclick="closePopup()">Accept</button>
+		</div>
+	</div>
 	<section id="home-section" class="hero">
 		<div class="home-slider owl-carousel mb-4">
 			<div class="slider-item">
@@ -55,7 +71,11 @@
 				stroke="#F96D00" />
 		</svg></div>
 
-
+	<script>
+		function closePopup() {
+			document.getElementById('disclaimerPopup').style.display = 'none';
+		}
+	</script>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery-migrate-3.0.1.min.js"></script>
 	<script src="js/popper.min.js"></script>
@@ -70,7 +90,6 @@
 	<script
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 	<script src="js/google-map.js"></script>
-
 	<script src="js/main.js"></script>
 
 </body>
