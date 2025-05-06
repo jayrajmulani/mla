@@ -561,3 +561,37 @@ footer {
 		height: 160px;
 	}
 }
+
+.contact-form-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    /* background: #fff; */
+    /* border-radius: 8px; */
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.contact-form-container h3 {
+    color: #3a678b;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.contact-form-container iframe {
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    min-height: 1200px;
+}
+
+@media (max-width: 768px) {
+    .contact-form-container {
+        margin: 1rem auto;
+        padding: 0.5rem;
+    }
+    
+    .contact-form-container iframe {
+        min-height: 1200px;
+    }
+}
